@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mrdulin/adobe-sign#readme",
   "dependencies": {
+    "adobe-sign-sdk": "^1.1.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "express-session": "^1.15.6",

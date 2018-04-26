@@ -9,7 +9,8 @@
     "arrow-body-style": "off",
     "no-unused-vars": "off",
     "no-mixed-operators": "off",
-    "camelcase": "off"
+    "camelcase": "off",
+    "function-paren-newline": "off"
   },
   "env": {
     "node": true,
