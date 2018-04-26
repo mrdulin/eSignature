@@ -35,6 +35,7 @@ function router(app) {
           <li><a href="/refreshToken">refresh token</a></li>
           <li><a href="/logout">logout</a></li>
           <li><a href="/transientDocuments">transientDocuments</a></li>
+          <li><a href="/agreements">agreements</a></li>
         </ul>
       `);
     }
@@ -42,7 +43,7 @@ function router(app) {
 
   // https://secure.na2.echosign.com/public/oauth?redirect_uri=https://www.github.com/mrdulin&response_type=code&client_id=CBJCHBCAABAA9rzvVcanKyZcc1eMlnH3NSk2OmMXNZkT&scope=agreement_send
   app.get('/oauth', (req, res) => {
-    const scopes = ['user_login', 'user_read', 'agreement_write', 'agreement_send'];
+    const scopes = ['user_login', 'user_read', 'agreement_write', 'agreement_send', 'agreement_read'];
     const scope = scopes.join('+');
     const url = `${config.adobe_sign.auth_request_url}?redirect_uri=${
       config.adobe_sign.callback_url
@@ -228,6 +229,20 @@ function router(app) {
         console.log('上传失败');
         console.error(apiError);
       });
+  });
+
+  app.get('/agreements', (req, res) => {
+    const { api_access_point, access_token } = req.session;
+    const url = `${api_access_point}api/rest/v5/agreements`;
+    rp
+      .get(url, {
+        json: true,
+        headers: {
+          'Access-Token': access_token
+        }
+      })
+      .then(json => res.json(json))
+      .catch(err => console.error(err));
   });
 }
 
