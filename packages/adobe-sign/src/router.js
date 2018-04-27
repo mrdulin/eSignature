@@ -218,7 +218,30 @@ function router(app) {
           .then(agreementCreationResponse => {
             const agreementId = agreementCreationResponse.getAgreementId();
             console.log(`Agreement created for Id ${agreementId}`);
-            res.json({ agreementId });
+
+            // Retrieves the url of the document
+            agreementsApi
+              .getSigningUrl(headerParams, agreementId)
+              .then(signingUrlResponse => {
+                // Returning the list of the URLs
+                const signingUrlSetInfos = signingUrlResponse.getSigningUrlSetInfos();
+                const esignUrls = [];
+
+                for (let i = 0; i < signingUrlSetInfos.length; i += 1) {
+                  const signingUrls = signingUrlSetInfos[i].getSigningUrls();
+                  for (let j = 0; j < signingUrls.length; j += 1) {
+                    const signingUrl = signingUrls[j];
+                    esignUrls.push(signingUrl.getEsignUrl());
+                  }
+                }
+
+                res.json(esignUrls);
+              })
+              .catch(apiError => {
+                console.error(apiError);
+              });
+
+            // res.json({ agreementId });
           })
           .catch(apiError => {
             console.log('createAgreement failed');
