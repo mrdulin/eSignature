@@ -4,11 +4,13 @@ const https = require('https');
 const path = require('path');
 const express = require('express');
 
-const router = require('./router');
+const jwtRouter = require('./routes/jwt');
+const passportRouter = require('./routes/passport');
 
 const app = express();
 
-router(app);
+app.use('/jwt', jwtRouter);
+app.use('/passport', passportRouter);
 
 const SSL_PATH = path.resolve(__dirname, 'ssl');
 

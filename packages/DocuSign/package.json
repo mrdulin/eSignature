@@ -4,7 +4,8 @@
   "description": "DocuSign research",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,12 @@
   "homepage": "https://github.com/mrdulin/DocuSign#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "docusign-esign": "3.2.2",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "jsonwebtoken": "^8.2.1",
+    "passport": "^0.4.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
   },
