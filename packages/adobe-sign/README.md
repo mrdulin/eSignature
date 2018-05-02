@@ -6,8 +6,11 @@ adobe sign research
 
 Developers can integrate with Adobe Sign using Adobe Sign REST API.
 In order to call the Adobe Sign APIs, you must first create an application.
-You can manage applications in your account here - please keep application credentials private and secure.
 Using Adobe Sign APIs to access user data requires OAuth Tokens.
+
+This watermark is the result of a developer account. You need a trial or paid account to remove the watermark. You can find information on the plans here: https://acrobat.adobe.com/us/en/sign/pricing/compare-plans.html
+
+For integrations that need to access services or content on behalf of an organization (rather than an end user), select the Service Account integration option.
 
 ## Web Management Console
 
@@ -27,7 +30,15 @@ login url address: https://secure.echosign.com/public/login
 
 ![Written signature - step3](https://ws4.sinaimg.cn/large/006tNc79gy1fqr61brs9yj31kw0vqdhz.jpg)
 
+## others
+
+![Create a new integration](https://ws3.sinaimg.cn/large/006tNc79gy1fqrb66yttyj31kw1ghq68.jpg)
+
 ## References
+
+* Feature comparison — Adobe Sign https://acrobat.adobe.com/us/en/sign/pricing/compare-plans.html
+
+* Service Account Integration: https://www.adobe.io/apis/cloudplatform/console/authentication/jwt_workflow.html
 
 * adobe sign js sdk: https://github.com/adobe-sign/AdobeSignJsSdk
 
