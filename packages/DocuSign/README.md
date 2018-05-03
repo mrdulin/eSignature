@@ -2,7 +2,7 @@
 
 DocuSign research
 
-## 说明
+## Introduction
 
 This project use `Service Integration Authentication`
 
@@ -26,7 +26,7 @@ Your application uses its integrator key and the user ID to create a JWT token. 
 Your application uses the authorization code to request an access token.
 Your application uses the oauth/userinfo endpoint to find the user’s base URI (API server) information.
 
-## 参考
+## References
 
 * https://www.docusign.com/blog/dsdev-using-the-oauth-jwt-flow/
 
