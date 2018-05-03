@@ -20,19 +20,25 @@ Developers can integrate with Adobe Sign using Adobe Sign REST API.In order to c
 
 login url address: https://secure.echosign.com/public/login
 
-![Dashboard](https://ws3.sinaimg.cn/large/006tNc79gy1fqq8qyinsfj31kw0vq78l.jpg)
+![Dashboard](https://ws3.sinaimg.cn/large/006tKfTcgy1fqy1q28nxzj31kw0vq44g.jpg)
 
-![Manage](https://ws1.sinaimg.cn/large/006tNc79gy1fqq8vjmp47j31kw0ymwj9.jpg)
+![Manage](https://ws1.sinaimg.cn/large/006tKfTcgy1fqy1qttlugj31kw0ymwjm.jpg)
+
+![Send](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1sn22rvj31kw10a416.jpg)
+
+![Edit document, add signature field form control](https://ws4.sinaimg.cn/large/006tKfTcgy1fqy1uugap0j31kw0vqq80.jpg)
+
+![successfully sent for signature](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1w8y58uj31kw0vqae3.jpg)
 
 ![Create signature](https://ws4.sinaimg.cn/large/006tNc79gy1fqq8xhrqq1j31kw0vqq4i.jpg)
 
 ![Account](https://ws1.sinaimg.cn/large/006tNc79gy1fqq8ykwdgvj31kw0vqads.jpg)
 
-![Written signature - step1](https://ws2.sinaimg.cn/large/006tNc79gy1fqr5yjwp2uj31kw0vq42g.jpg)
+![Written signature - step1](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1yhsnv9j31kw0vqn16.jpg)
 
-![Written signature - step2](https://ws1.sinaimg.cn/large/006tNc79gy1fqr601sf40j31kw0vq40j.jpg)
+![Written signature - step2](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy20jf7hdj31kw0vq0ux.jpg)
 
-![Written signature - step3](https://ws4.sinaimg.cn/large/006tNc79gy1fqr61brs9yj31kw0vqdhz.jpg)
+![Written signature - step3](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1zwxh4xj31kw0tzq57.jpg)
 
 ## others
 
