@@ -40,12 +40,6 @@ login url address: https://secure.echosign.com/public/login
 
 ![Written signature - step3](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1zwxh4xj31kw0tzq57.jpg)
 
-## others
-
-This watermark is the result of a developer account. You need a trial or paid account to remove the watermark. You can find information on the plans here: https://acrobat.adobe.com/us/en/sign/pricing/compare-plans.html
-
-For integrations that need to access services or content on behalf of an organization (rather than an end user), select the Service Account integration option.
-
 ![Create a new integration](https://ws3.sinaimg.cn/large/006tNc79gy1fqrb66yttyj31kw1ghq68.jpg)
 
 ## References
@@ -78,6 +72,8 @@ For integrations that need to access services or content on behalf of an organiz
 
 I think our usage should be that we (the company), as the resource owner, send the user a signed agreement instead of redirecting the user to the adobe-sign or docusign login authorization page in the browser. This application belongs to the user application, and the user authorizes the application to use their resources on the adobe-sign or docusign server.
 
+> For integrations that need to access services or content on behalf of an organization (rather than an end user), select the Service Account integration option.
+
 2.  Needs user email
 
 When adobe-sign and docusign send the signing agreement, the recipient information filled in requires an email address, so we must get the user's email address information.
@@ -85,3 +81,7 @@ When adobe-sign and docusign send the signing agreement, the recipient informati
 3.  How would the flow work when initiated from the chat interface?
 
 Currently I don't know much about the chat interface, but I think it should be similar to the chat bot in the facebook messenger platform. I think the process is like this. For example, NH, the user enters his intention in the chatbot UI? After dialogflow analysis, through Call the API provided by adobe-sign or docusign to access resources (such as the Non-Disclosure Agreement) that we (the company) have on the adobe service, get the url link address of the signing agreement, respond to the user in the chatbot UI, and the user clicks the link , Open the signed agreement in the browser and perform electronic signature or handwritten signature.
+
+4.  document watermark
+
+This watermark is the result of a developer account. You need a trial or paid account to remove the watermark. You can find information on the plans here: https://acrobat.adobe.com/us/en/sign/pricing/compare-plans.html
