@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  adobe-sign:
+    image: adobe-sign
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 18081:18081
+      - 9229:9229
+    command: node --inspect=0.0.0.0:9229 src/server.js

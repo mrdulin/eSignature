@@ -18,6 +18,8 @@ Developers can integrate with Adobe Sign using Adobe Sign REST API.In order to c
 
 ## docker
 
+* 使用 Dockerfile 构建 image, 并启动容器
+
 ```bash
 ➜  adobe-sign git:(master) ✗ docker run -p 18081:18081 -d adobe-sign:v1.0
 e8652613f7759677fd67741fd52dcfe6887735ffa6b71691f0e758a7935b9252
@@ -33,6 +35,10 @@ e8652613f775        adobe-sign:v1.0     "npm start"              4 seconds ago  
 HTTP Server is running on: http://localhost:18080
 HTTPS Server is running on: https://localhost:18081
 ```
+
+* 使用 docker-compose
+
+`docker-compose up`
 
 https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
