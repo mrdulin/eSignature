@@ -100,6 +100,8 @@ I think our usage should be that we (the company), as the resource owner, send t
 
 > For integrations that need to access services or content on behalf of an organization (rather than an end user), select the Service Account integration option.
 
+https://forums.adobe.com/message/10370469#10370469
+
 * Needs user email
 
 When adobe-sign and docusign send the signing agreement, the recipient information filled in requires an email address, so we must get the user's email address information.
