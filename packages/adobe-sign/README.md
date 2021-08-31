@@ -18,7 +18,7 @@ Developers can integrate with Adobe Sign using Adobe Sign REST API.In order to c
 
 ## docker
 
-* 使用 Dockerfile 构建 image, 并启动容器
+- 使用 Dockerfile 构建 image, 并启动容器
 
 ```bash
 ➜  adobe-sign git:(master) ✗ docker run -p 18081:18081 -d adobe-sign:v1.0
@@ -36,7 +36,7 @@ HTTP Server is running on: http://localhost:18080
 HTTPS Server is running on: https://localhost:18081
 ```
 
-* 使用 docker-compose
+- 使用 docker-compose
 
 `docker-compose up`
 
@@ -70,31 +70,31 @@ login url address: https://secure.echosign.com/public/login
 
 ## References
 
-* Feature comparison — Adobe Sign https://acrobat.adobe.com/us/en/sign/pricing/compare-plans.html
+- Feature comparison — Adobe Sign https://acrobat.adobe.com/us/en/sign/pricing/compare-plans.html
 
-* Service Account Integration: https://www.adobe.io/apis/cloudplatform/console/authentication/jwt_workflow.html
+- Service Account Integration: https://www.adobe.io/apis/cloudplatform/console/authentication/jwt_workflow.html
 
-* adobe sign js sdk: https://github.com/adobe-sign/AdobeSignJsSdk
+- adobe sign js sdk: https://github.com/adobe-sign/AdobeSignJsSdk
 
-* https://cn.engadget.com/2016/04/26/adobe-sign-hands-on/
+- https://cn.engadget.com/2016/04/26/adobe-sign-hands-on/
 
-* https://helpx.adobe.com/cn/sign/how-to/get-started.html
+- https://helpx.adobe.com/cn/sign/how-to/get-started.html
 
-* https://helpx.adobe.com/cn/support/sign.html
+- https://helpx.adobe.com/cn/support/sign.html
 
-* https://secure.na1.echosign.com/public/static/oauthDoc.jsp
+- https://secure.na1.echosign.com/public/static/oauthDoc.jsp
 
-* https://secure.na1.echosign.com/public/docs/restapi/v5
+- https://secure.na1.echosign.com/public/docs/restapi/v5
 
-* https://www.adobe.io/apis/documentcloud/sign/docs/developer-guides.html
+- https://www.adobe.io/apis/documentcloud/sign/docs/developer-guides.html
 
-* plan & price: https://acrobat.adobe.com/us/en/sign/pricing/plans.html?promoid=FVYPZ681&mv=other
+- plan & price: https://acrobat.adobe.com/us/en/sign/pricing/plans.html?promoid=FVYPZ681&mv=other
 
-* forums: https://forums.adobe.com/community/adobesign
+- forums: https://forums.adobe.com/community/adobesign
 
 ## issues
 
-* Service Account Integration or OAuth Integration?
+- Service Account Integration or OAuth Integration?
 
 I think our usage should be that we (the company), as the resource owner, send the user a signed agreement instead of redirecting the user to the adobe-sign or docusign login authorization page in the browser. This application belongs to the user application, and the user authorizes the application to use their resources on the adobe-sign or docusign server.
 
@@ -102,14 +102,14 @@ I think our usage should be that we (the company), as the resource owner, send t
 
 https://forums.adobe.com/message/10370469#10370469
 
-* Needs user email
+- Needs user email
 
 When adobe-sign and docusign send the signing agreement, the recipient information filled in requires an email address, so we must get the user's email address information.
 
-* How would the flow work when initiated from the chat interface?
+- How would the flow work when initiated from the chat interface?
 
 Currently I don't know much about the chat interface, but I think it should be similar to the chat bot in the facebook messenger platform. I think the process is like this. For example, NH, the user enters his intention in the chatbot UI? After dialogflow analysis, through Call the API provided by adobe-sign or docusign to access resources (such as the Non-Disclosure Agreement) that we (the company) have on the adobe service, get the url link address of the signing agreement, respond to the user in the chatbot UI, and the user clicks the link , Open the signed agreement in the browser and perform electronic signature or handwritten signature.
 
-* document watermark
+- document watermark
 
 This watermark is the result of a developer account. You need a trial or paid account to remove the watermark. You can find information on the plans here: https://acrobat.adobe.com/us/en/sign/pricing/compare-plans.html
