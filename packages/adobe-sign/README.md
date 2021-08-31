@@ -46,11 +46,11 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 login url address: https://secure.echosign.com/public/login
 
-![Dashboard](https://ws3.sinaimg.cn/large/006tKfTcgy1fqy1q28nxzj31kw0vq44g.jpg)
+![Dashboard](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy1q28nxzj31kw0vq44g.jpg)
 
-![Manage](https://ws1.sinaimg.cn/large/006tKfTcgy1fqy1qttlugj31kw0ymwjm.jpg)
+![Manage](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy1qttlugj31kw0ymwjm.jpg)
 
-![Send](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1sn22rvj31kw10a416.jpg)
+![Send](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy1sn22rvj31kw10a416.jpg)
 
 ![Edit document, add signature field form control](https://ws4.sinaimg.cn/large/006tKfTcgy1fqy1uugap0j31kw0vqq80.jpg)
 
@@ -102,7 +102,7 @@ I think our usage should be that we (the company), as the resource owner, send t
 
 https://forums.adobe.com/message/10370469#10370469
 
-- Needs user email
+- Needs user email
 
 When adobe-sign and docusign send the signing agreement, the recipient information filled in requires an email address, so we must get the user's email address information.
 
