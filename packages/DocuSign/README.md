@@ -10,9 +10,9 @@ Service Integration Authentication uses JSON Web Token (JWT) Profile for OAuth 2
 
 Service integrations offer two ways to give consent:
 
-* User consent - the way this project used
+- User consent - the way this project used
 
-* Admin consent
+- Admin consent
 
 How the flow works:
 
@@ -28,12 +28,12 @@ Your application uses the oauth/userinfo endpoint to find the user’s base URI 
 
 ## References
 
-* https://www.docusign.com/blog/dsdev-using-the-oauth-jwt-flow/
+- https://www.docusign.com/blog/dsdev-using-the-oauth-jwt-flow/
 
-* https://github.com/docusign/OAuth_JWT_recipes
+- https://github.com/docusign/OAuth_JWT_recipes
 
-* https://stackoverflow.com/questions/46412305/how-can-i-make-an-application-and-grant-it-admin-consent-from-the-demo-account?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+- https://stackoverflow.com/questions/46412305/how-can-i-make-an-application-and-grant-it-admin-consent-from-the-demo-account?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 
-* https://docs.docusign.com/esign/guide/authentication/auth_overview.html
+- https://docs.docusign.com/esign/guide/authentication/auth_overview.html
 
-* http://docusign.github.io/docusign-node-client/
+- http://docusign.github.io/docusign-node-client/
