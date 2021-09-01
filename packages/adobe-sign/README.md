@@ -52,21 +52,21 @@ login url address: https://secure.echosign.com/public/login
 
 ![Send](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy1sn22rvj31kw10a416.jpg)
 
-![Edit document, add signature field form control](https://ws4.sinaimg.cn/large/006tKfTcgy1fqy1uugap0j31kw0vqq80.jpg)
+![Edit document, add signature field form control](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy1uugap0j31kw0vqq80.jpg)
 
-![successfully sent for signature](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1w8y58uj31kw0vqae3.jpg)
+![successfully sent for signature](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy1w8y58uj31kw0vqae3.jpg)
 
-![Create signature](https://ws4.sinaimg.cn/large/006tNc79gy1fqq8xhrqq1j31kw0vqq4i.jpg)
+![Create signature](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tNc79gy1fqq8xhrqq1j31kw0vqq4i.jpg)
 
-![Account](https://ws1.sinaimg.cn/large/006tNc79gy1fqq8ykwdgvj31kw0vqads.jpg)
+![Account](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tNc79gy1fqq8ykwdgvj31kw0vqads.jpg)
 
-![Written signature - step1](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1yhsnv9j31kw0vqn16.jpg)
+![Written signature - step1](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy1yhsnv9j31kw0vqn16.jpg)
 
-![Written signature - step2](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy20jf7hdj31kw0vq0ux.jpg)
+![Written signature - step2](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy20jf7hdj31kw0vq0ux.jpg)
 
-![Written signature - step3](https://ws2.sinaimg.cn/large/006tKfTcgy1fqy1zwxh4xj31kw0tzq57.jpg)
+![Written signature - step3](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tKfTcgy1fqy1zwxh4xj31kw0tzq57.jpg)
 
-![Create a new integration](https://ws3.sinaimg.cn/large/006tNc79gy1fqrb66yttyj31kw1ghq68.jpg)
+![Create a new integration](https://raw.githubusercontent.com/mrdulin/pic-bucket-01/master/006tNc79gy1fqrb66yttyj31kw1ghq68.jpg)
 
 ## References
 
